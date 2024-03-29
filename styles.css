@@ -1,0 +1,50 @@
+body {
+
+    margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(to right, pink, #ff66b2);
+  
+  }
+  
+  h3 {
+      font-size: 2em;
+      color: #191970;
+    }
+  
+  button {
+      font-size: 1em;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      background-color: #1877f2; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  
+  button#no {
+      animation: move 1.5s infinite alternate;
+    }
+  
+  @keyframes move {
+  
+    from {
+  
+      transform: translateX(0);
+  
+    }
+  
+    to {
+  
+      transform: translateX(5px);
+  
+    }
+  
+  }
+
+
+
+  
